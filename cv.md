@@ -5,19 +5,16 @@
 * __Email:__ _koskam99@gmail.com_
 * __GitHub:__ [_Stan_](https://github.com/Stankam1nski)
 * __TG me:__ [_Telegram_](https://t.me/Stan_Kaminski)   
-___
+
 
 ## About me
 I am a fast learner excited about getting new knowledge. I am open to new ideas and experiences and ready to be part of a dynamic team. 
-___
+
 ## Skills
 * HTML    
 * CSS
 * JavaScript (basic)
 * Git   
-
-___
-
 
 ## Code Example
 ```   
@@ -33,21 +30,17 @@ function opposite(number)
   
    }   
   ```
-  
-  ___
 
 ## Expirience 
 * This CV.
 * Shelter adaptive
-___
+
 ## Education
 * __Courses:__ 
   * Html Academy
   * Ru.code-basics
   * CS50 lectures   
   * RSSchool stage 1: 55%
-
-___
 
 ## English 
 I am learning hard and about to get to an intermediate level and further.
