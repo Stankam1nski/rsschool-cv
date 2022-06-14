@@ -713,15 +713,36 @@ main {
     color: limegreen;
 }
 
-.codestyle p {
+#yellows1 {
     color:#f6fa00;
 }
 
-#reds {
+#yellows2 {
+    color:#f6fa00;
+}
+
+
+#reds1 {
     color: rgb(240, 42, 16);
 }
 
-#greens {
+#reds2 {
+    color: rgb(240, 42, 16);
+}
+
+#reds3 {
+    color: rgb(240, 42, 16);
+}
+
+#greens1 {
+    color: forestgreen;
+}
+
+#greens2 {
+    color: forestgreen;
+}
+
+#greens3 {
     color: forestgreen;
 }
 
