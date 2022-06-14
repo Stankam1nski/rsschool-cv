@@ -600,6 +600,23 @@ main {
     justify-content: space-between;
     width: 1100px;
 }
+
+.fl-last {
+    margin-left: 120px;
+}
+
+.fl-last span {
+    color: deeppink;
+    transition: 1s;
+}
+
+.education:hover .fl-last span{
+    font-size: 25px;
+    transition: 1s;
+
+}
+
+
 .engl-div {
     width: 400px;
 }
@@ -654,8 +671,7 @@ main {
 }
 
 .edu-courses span{
-
-    transition: 1s;
+transition: 1s;
 
 }
 
@@ -672,7 +688,6 @@ main {
 }
 
 .edu-courses {
-    margin-left: 120px;
     padding-bottom: 20px;
     color: deeppink;
     transition: 1s;
