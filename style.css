@@ -19,6 +19,11 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 h1, h2 {
     font-size: 1em;
     font-weight: 500;
@@ -590,6 +595,53 @@ main {
     height: 400px;
 }
 
+.flex-edu {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+.engl-div {
+    width: 400px;
+}
+
+.engl-level::before {
+    content: ">>";
+    margin-right: 5px;
+    color: #3825b3;
+    opacity: 0;
+    transition: 1s;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(125, 125, 224), 0 0 0.2em blue;
+
+} 
+
+.education:hover .engl-level::before {
+    opacity: 1;
+}
+
+.engl {
+    font-size: 22px;
+    color: deeppink;
+    width: 600px;
+    transition: 1s;
+}
+
+.engl-level {
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(62, 62, 105), 0 0 0.2em blue;
+
+}
+
+.engl-level span {
+    color: #f6fa00;
+
+
+}
+
+.education:hover .engl{
+    font-size: 26px;
+    transition: 1s;
+
+}
+
 .education:hover .edu-title{
     font-size: 60px;
     transition: 1s;
@@ -722,8 +774,13 @@ main {
 
 
 .footer {
-    margin-top: 100px;
-    background-color: rgb(73, 73, 133);
+    width: 1200px;
+    margin: 80px auto 0;
+    background-color: rgba(73, 73, 133, 0.096);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+
 }
 
 .footer-flex {
@@ -732,11 +789,23 @@ main {
     height: 100px;
 }
 
+.gh{
+    height: 50px;
+    margin-top: 40px;
+    
+
+}
+
 .rs-img {
     height: 100px;
+    margin-top: 10px;
+    
+
 }
 
 .year {
     text-align: center;
     font-size: 35px;
+    text-shadow: 1px 1px 1px red, 0 0 1em rgb(38, 38, 71), 0 0 0.2em blue;
+
 }
