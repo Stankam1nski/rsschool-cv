@@ -648,8 +648,14 @@ main {
 
 }
 
-.education:hover .edu-courses{
+.education:hover .edu-courses span{
     font-size: 25px;
+    transition: 1s;
+}
+
+.edu-courses span{
+
+    transition: 1s;
 
 }
 
