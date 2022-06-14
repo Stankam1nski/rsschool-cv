@@ -14,10 +14,10 @@
             <a href="index.html" class="logo-link"><img class="header-symbol" src="assets/images/S.png" alt="Symbol"></a>
             <nav class="nav">
                 <ul class="nav-list" >
-                    <li class="nav-item" > <a href="#" class="nav-link">Skills</a> </li>
-                    <li class="nav-item" > <a href="#" class="nav-link">Expirience</a> </li>
-                    <li class="nav-item" > <a href="#" class="nav-link">Code Style</a> </li>
-                    <li class="nav-item" > <a href="#" class="nav-link">Contact</a> </li>
+                    <li class="nav-item" > <a href="#skills" class="nav-link">Skills</a> </li>
+                    <li class="nav-item" > <a href="#exp" class="nav-link">Expirience</a> </li>
+                    <li class="nav-item" > <a href="#cod" class="nav-link">Code Style</a> </li>
+                    <li class="nav-item" > <a href="#cont" class="nav-link">Contact</a> </li>
                 </ul>
             </nav>
         </header>
@@ -44,8 +44,8 @@
                 <p class="p3">I live in Belarus In Minsk. I write electronic music, like to work as a DJ and drive fast. </p>
             </div>
 
-            <section class="skills-section">
-                <p class="why-hire">Why me</p>
+            <section id="skills" class="skills-section">
+                <h2 class="why-hire">Why me</h2>
                 <span class="hard-skills">Hard skills:</span>
                 <span class="my-skills">Soft skills:</span>
 
@@ -68,16 +68,17 @@
                 </div>    
             </section>
 
-            <section class="expirience-section">
+            <section id="exp" class="expirience-section">
                 <p class="subtitle-exp">Where I work</p>
                 <h2 class="exp-title">Expirience</h2>
                 <div class="exp-list">
-                        <li class="exp1">2019 - 2022</li>
-                        <li class="exp2">Soundcafe&#174</li>
+                      <ul class="exp-list-ul">  <li class="exp1">2019 - 2022</li>
+                        <li class="exp2">Soundcafe&#174;</li>
                         <li class="exp3">Minsk, Belarus</li>
                         <li class="exp4">as Sound Engineer, Dj</li>
                         <li class="exp5">Holding events of large companies, private celebrations </li>
                         <li class="exp6">Work with popular artists, TV presenters and media personalities</li>
+                    </ul>
                 </div>
             </section>
 
@@ -87,15 +88,64 @@
                 <a href="https://rolling-scopes-school.github.io/stankam1nski-JSFE2022Q1/shelter/pages/main/index.html" class="shelter"><div class="img"></div></a>
                 <a href="https://rolling-scopes-school.github.io/stankam1nski-JSFE2022Q1/shelter/pages/main/index.html" class="text">Shelter from Stage#1</a>
             </section>
+            
+            <section class="education">
+                <h2 class="edu-title">Education</h2>
+                <div class="flex-edu">
+                    <ul class="edu-courses"> Courses:
+                        <li>Html Academy</li>
+                        <li>Ru.code-basics</li>
+                        <li>CS50 lectures</li>
+                        <li>RSSchool stage#1: 55%</li>
+                    </ul>
+                   <div class="engl-div">
+                    <p class="engl">English:</p>
+                    <p class="engl-level">I am learning hard and about to get to an <span>intermediate</span> level and further.</p>
+                   </div>
+                </div>
 
-            <section class="code">
+            </section>
+
+            <section id="cod" class="code">
+                <h2 class="code-style">My Code Style</h2>
+                <div class="my-code">
+                    <code class="codestyle">
+                        <span>function</span> opposite(number)  <br>
+                                <p>{</p>   <br>
+                            <span>let</span> <span id="reds">a</span> = ' 1';  <br>
+                            <span>let</span> <span id="reds">b</span> = ' 14';   <br>
+                            <span>let</span> <span id="reds">c</span> = ' -34';   <br>
+                            <br>
+                            <span id="greens">console</span>.log(a + (':') + ( a*" -1"));   <br>
+                            <span id="greens">console</span>.log(b + (':') + ( b*" -1"));   <br>
+                            <span id="greens">console</span>.log(c + (':') + ( c*" -1"));      <br>
+                            <br>
+                            <p>}</p>
+                    </code>
+                </div>
+            </section>
+
+            <section id="cont" class="contacts">
+                <h2 class="contacts-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li>Location: Minsk, Belarus</li>
+                        <li>Email: koskam99@gmail.com</li>
+                        <li> <a href="https://github.com/Stankam1nski">GitHub: Stankam1nsi</a></li>
+                        <li><a href="https://t.me/Stan_Kaminskij" class="tg-link">Telegram</a></li>
+                    </ul>
 
             </section>
 
         </main>
         
         <footer class="footer">
-          d
+          
+          <div class="footer-flex">
+            <a class="gh-symbol" href="https://github.com/Stankam1nski"><img class="gh" src="assets/images/25231.png" alt="Github icon"></a>
+            <a class="rs" href="https://rs.school/js/"><img class="rs-img" src="assets/images/1234.png" alt="RSSchool icon"></a>
+          
+        </div>
+        <p class="year">2022</p>
         </footer>
     </div>
 </body>
